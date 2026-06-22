@@ -1,1 +1,1 @@
-const nums=document.querySelectorAll('[data-count]');let done=false;function animate(){if(done)return;done=true;nums.forEach(n=>{let target=+n.dataset.count;let current=0;let step=()=>{current+=1;n.textContent=current+'+';if(current<target)requestAnimationFrame(step)};step()})}const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)animate()})},{threshold:.4});nums.forEach(n=>obs.observe(n));
+// ready
