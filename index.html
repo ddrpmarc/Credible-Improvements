@@ -3,201 +3,155 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Credible Improvements LLC | 24HR Home Repair & Renovations</title>
+  <title>Credible Improvements LLC | 24HR Repairs & Renovations</title>
   <meta name="description" content="Credible Improvements LLC provides drywall finishing and repairs, painting, flooring, kitchen and bath renovations, electrical, plumbing, drain cleaning, and 24 hour emergency service." />
-  <meta name="theme-color" content="#061b49" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="top-strip">
+  <div class="emergency-strip">
     <span>24HR Emergency Service</span>
-    <a href="tel:3136276933">313-627-6933</a>
+    <a href="tel:3136276933">Call/Text 313-627-6933</a>
   </div>
 
-  <header class="header">
-    <a class="brand" href="#home" aria-label="Credible Improvements home">
-      <span class="brand-mark">CI</span>
-      <span>
-        <strong>Credible Improvements LLC</strong>
-        <small>Quality Work. Credible Results.</small>
-      </span>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <span class="ci-mark">CI</span>
+      <span><strong>Credible Improvements LLC</strong><small>Quality Work. Credible Results.</small></span>
     </a>
-
-    <nav class="nav">
+    <nav>
       <a href="#services">Services</a>
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
+      <a href="#process">Process</a>
+      <a href="#gallery">Gallery</a>
       <a href="#reviews">Reviews</a>
       <a href="#contact">Contact</a>
     </nav>
-
-    <a class="header-call" href="tel:3136276933">Call Now</a>
+    <a class="pill" href="#contact">Get Estimate</a>
   </header>
 
   <main id="home">
     <section class="hero">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Metro Detroit Home Improvement & Maintenance</p>
-        <h1>Reliable repairs. Clean finishes. Credible results.</h1>
-        <p class="lead">Drywall, painting, flooring, kitchen and bath renovations, electrical, plumbing, drain cleaning, and emergency service built around dependable workmanship.</p>
-        <div class="hero-actions">
+      <div class="hero-copy">
+        <p class="eyebrow">Metro Detroit • Ann Arbor • Ypsilanti</p>
+        <h1><span>Reliable Repairs.</span><span>Clean Finishes.</span><span>Credible Results.</span></h1>
+        <p class="lead">Professional home repairs, renovations, and emergency maintenance with clean workmanship and straight communication.</p>
+        <div class="actions">
           <a class="btn primary" href="tel:3136276933">Call 313-627-6933</a>
-          <a class="btn secondary" href="#contact">Request Estimate</a>
+          <a class="btn ghost" href="#contact">Request Estimate</a>
         </div>
-        <div class="trust-row">
-          <span>Fast Response</span>
-          <span>Clean Work</span>
-          <span>Honest Communication</span>
+        <div class="stat-row">
+          <div><strong data-count="12">0</strong><small>Years Experience</small></div>
+          <div><strong>24HR</strong><small>Emergency Service</small></div>
+          <div><strong>100%</strong><small>Customer Focus</small></div>
         </div>
       </div>
-
-      <div class="hero-visual reveal">
-        <div class="metal-card">
-          <img src="assets/credible-logo.png" alt="Credible Improvements LLC logo" onerror="this.style.display='none';document.querySelector('.fallback-logo').style.display='grid';" />
-          <div class="fallback-logo">
-            <strong>Credible</strong>
-            <span>Improvements LLC</span>
-            <small>313-627-6933</small>
-          </div>
-        </div>
+      <div class="hero-card">
+        <div class="glow"></div>
+        <img src="assets/brand-ad.png" alt="Credible Improvements advertisement logo" onerror="this.remove()" />
+        <div class="hero-badge">Call/Text<br><strong>313-627-6933</strong></div>
       </div>
     </section>
 
-    <section class="emergency-bar">
+    <section class="callout">
       <div>
         <strong>Need help now?</strong>
-        <span>Leaks, drains, drywall damage, electrical issues, and urgent repairs.</span>
+        <p>Leaks, drains, drywall damage, electrical issues, and urgent repair needs.</p>
       </div>
-      <a href="tel:3136276933">Tap to Call</a>
+      <a href="tel:3136276933">Call Now</a>
     </section>
 
     <section id="services" class="section">
-      <div class="section-head reveal">
+      <div class="section-title">
         <p class="eyebrow">Services</p>
-        <h2>One company for the work people actually need done.</h2>
+        <h2>Built for real repair work.</h2>
       </div>
-
-      <div class="service-grid">
-        <article class="service-card reveal">
-          <div class="icon">▰</div>
-          <h3>Drywall Finishing/Repairs</h3>
-          <p>Patch work, finishing, wall repair, texture repair, water-damage areas, and clean ready-to-paint results.</p>
-        </article>
-        <article class="service-card reveal">
-          <div class="icon">◼</div>
-          <h3>Paint</h3>
-          <p>Interior painting, doors, trim, touch-ups, turnovers, and clean coverage with sharp lines.</p>
-        </article>
-        <article class="service-card reveal">
-          <div class="icon">▤</div>
-          <h3>Flooring</h3>
-          <p>Flooring repairs, installation, transitions, baseboards, and finish details.</p>
-        </article>
-        <article class="service-card reveal">
-          <div class="icon">▣</div>
-          <h3>Kitchen/Bath Renovations</h3>
-          <p>Cabinets, fixtures, caulking, plumbing updates, trim, hardware, and finish upgrades.</p>
-        </article>
-        <article class="service-card reveal">
-          <div class="icon">⚡</div>
-          <h3>Electrical</h3>
-          <p>Outlets, switches, fixtures, troubleshooting, minor repairs, and replacement work.</p>
-        </article>
-        <article class="service-card reveal">
-          <div class="icon">⌁</div>
-          <h3>Plumbing/Drain Cleaning</h3>
-          <p>Leaks, toilets, valves, faucets, disposals, clogged drains, and common plumbing repairs.</p>
-        </article>
-        <article class="service-card emergency reveal">
-          <div class="icon">24</div>
-          <h3>24hr Emergency Service</h3>
-          <p>After-hours help for urgent maintenance problems that cannot wait until morning.</p>
-        </article>
+      <div class="cards">
+        <article><span class="tool">▰</span><h3>Drywall Finishing/Repairs</h3><p>Patches, finishing, texture repairs, wall damage, water damage areas, and ready-to-paint results.</p></article>
+        <article><span class="tool">◨</span><h3>Paint</h3><p>Interior painting, trim, doors, turnovers, touch-ups, and clean coverage with sharp lines.</p></article>
+        <article><span class="tool">▤</span><h3>Flooring</h3><p>Flooring repairs, installs, transitions, baseboards, and clean finish details.</p></article>
+        <article><span class="tool">▣</span><h3>Kitchen/Bath Renovations</h3><p>Fixture updates, cabinets, hardware, caulking, plumbing updates, and finish upgrades.</p></article>
+        <article><span class="tool">⚡</span><h3>Electrical</h3><p>Outlets, switches, fixtures, troubleshooting, and minor electrical repairs.</p></article>
+        <article><span class="tool">⌁</span><h3>Plumbing/Drain Cleaning</h3><p>Leaks, toilets, faucets, valves, disposals, clogged drains, and common plumbing repairs.</p></article>
       </div>
     </section>
 
-    <section id="work" class="section split dark">
-      <div class="reveal">
-        <p class="eyebrow">Before & After</p>
-        <h2>Show the work. Build trust fast.</h2>
-        <p class="body-text">Add real project photos here as you complete jobs. Before-and-after photos are one of the strongest ways to turn visitors into callers.</p>
-        <a class="btn secondary" href="#contact">Book A Project</a>
+    <section id="process" class="section process">
+      <div class="section-title">
+        <p class="eyebrow">Simple Process</p>
+        <h2>From first call to finished job.</h2>
       </div>
-
-      <div class="mock-gallery reveal">
-        <div><span>Before</span></div>
-        <div><span>After</span></div>
-        <div><span>Renovation</span></div>
-        <div><span>Repair</span></div>
+      <div class="steps">
+        <div><b>01</b><h3>Call or Text</h3><p>Tell us what is going on and send photos if possible.</p></div>
+        <div><b>02</b><h3>Schedule</h3><p>We confirm timing, access, and what needs to be handled.</p></div>
+        <div><b>03</b><h3>We Show Up</h3><p>Clean work habits, clear communication, and quality repairs.</p></div>
+        <div><b>04</b><h3>Job Complete</h3><p>Final check, cleanup, and results you can trust.</p></div>
       </div>
     </section>
 
-    <section id="about" class="section about">
-      <div class="badge reveal">
-        <span>12+</span>
-        <small>Years Hands-On Experience</small>
+    <section id="gallery" class="section gallery">
+      <div class="gallery-copy">
+        <p class="eyebrow">Project Gallery</p>
+        <h2>Before and after photos sell the work.</h2>
+        <p>Add your real job photos here. This section is built to show drywall, paint, flooring, kitchen/bath, and repair transformations.</p>
       </div>
+      <div class="gallery-grid">
+        <div><span>Drywall Before/After</span></div>
+        <div><span>Paint Finish</span></div>
+        <div><span>Flooring Install</span></div>
+        <div><span>Kitchen/Bath Work</span></div>
+      </div>
+    </section>
 
-      <div class="reveal">
-        <p class="eyebrow">About Credible Improvements</p>
-        <h2>Built on experience, communication, and pride in the finish.</h2>
-        <p class="body-text">Credible Improvements LLC provides residential and commercial repair, renovation, and maintenance services. The goal is simple: show up, communicate clearly, protect the property, and leave behind work that looks professional.</p>
-        <ul class="check-list">
-          <li>Clean, professional job-site habits</li>
-          <li>Clear updates before and during the work</li>
-          <li>Repair-first mindset when it saves the customer money</li>
-          <li>Premium look for rental properties, homes, and small businesses</li>
+    <section class="section about">
+      <div class="circle"><strong>12+</strong><span>Years Hands-On Experience</span></div>
+      <div>
+        <p class="eyebrow">About The Company</p>
+        <h2>Professional maintenance experience with contractor-level finish work.</h2>
+        <p>Credible Improvements LLC provides residential and commercial repairs, renovations, and maintenance services. The goal is simple: show up, communicate clearly, protect the property, and leave the job looking professional.</p>
+        <ul>
+          <li>Clean job-site habits</li>
+          <li>Honest updates and clear communication</li>
+          <li>Repair-first mindset when it saves money</li>
+          <li>Premium look for homes, rentals, and businesses</li>
         </ul>
       </div>
     </section>
 
-    <section id="reviews" class="section">
-      <div class="section-head reveal">
+    <section id="reviews" class="section reviews">
+      <div class="section-title">
         <p class="eyebrow">Reviews</p>
         <h2>What customers should feel after every job.</h2>
       </div>
-      <div class="reviews">
-        <article class="review reveal">
-          <strong>★★★★★</strong>
-          <p>Professional, fast, and the work was clean.</p>
-        </article>
-        <article class="review reveal">
-          <strong>★★★★★</strong>
-          <p>Showed up when promised and explained the repair clearly.</p>
-        </article>
-        <article class="review reveal">
-          <strong>★★★★★</strong>
-          <p>Great finish work and dependable communication.</p>
-        </article>
+      <div class="review-grid">
+        <div><strong>★★★★★</strong><p>Professional, fast, and the work was clean.</p></div>
+        <div><strong>★★★★★</strong><p>Showed up when promised and explained the repair clearly.</p></div>
+        <div><strong>★★★★★</strong><p>Great finish work and dependable communication.</p></div>
       </div>
     </section>
 
     <section id="contact" class="section contact">
-      <div class="reveal">
+      <div>
         <p class="eyebrow">Request Service</p>
         <h2>Tell us what you need fixed or improved.</h2>
-        <p class="body-text">Call or text for service, estimates, and emergency repairs.</p>
-        <a class="big-phone" href="tel:3136276933">313-627-6933</a>
+        <p>Call or text for service, estimates, and emergency repairs.</p>
+        <a class="phone" href="tel:3136276933">313-627-6933</a>
       </div>
-
-      <form class="contact-form reveal" action="mailto:credibleimprovements@example.com" method="post" enctype="text/plain">
-        <label>Name<input name="Name" required /></label>
-        <label>Phone<input name="Phone" required /></label>
-        <label>Email<input name="Email" /></label>
-        <label>Project Details<textarea name="Project Details" placeholder="Drywall repair, painting, flooring, plumbing issue, etc."></textarea></label>
+      <form action="mailto:credibleimprovements@example.com" method="post" enctype="text/plain">
+        <label>Name<input name="Name" required></label>
+        <label>Phone<input name="Phone" required></label>
+        <label>Email<input name="Email"></label>
+        <label>Project Details<textarea name="Project Details" placeholder="Tell us what you need help with"></textarea></label>
         <button type="submit">Send Request</button>
       </form>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer>
     <strong>Credible Improvements LLC</strong>
     <span>Quality Work. Credible Results.</span>
     <a href="tel:3136276933">313-627-6933</a>
   </footer>
 
-  <a class="floating-call" href="tel:3136276933">Call / Text</a>
-
+  <a class="floating-call" href="tel:3136276933">Call/Text</a>
   <script src="script.js"></script>
 </body>
 </html>
