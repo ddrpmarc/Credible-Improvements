@@ -1,1 +1,1 @@
-// Credible Improvements V6
+// Credible Improvements V7 final clean logo
